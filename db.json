@@ -1,0 +1,27 @@
+{
+    "users": [
+      {
+        "id": "1",
+        "username": "usuario1",
+        "password": "contrasena1",
+        "nombre": "Juan Pérez",
+        "identificador": "123456789",
+        "cargo": "Ingeniero de Minas",
+        "area": "Operaciones",
+        "role": "admin",
+        "imagenPerfil": "http://10.0.2.2:3000/images/juan_perez.png"  
+      },
+      {
+        "id": "2",
+        "username": "usuario2",
+        "password": "contrasena2",
+        "nombre": "Ana López",
+        "identificador": "987654321",
+        "cargo": "Geóloga",
+        "area": "Exploración",
+        "role": "user",
+        "imagenPerfil": "http://10.0.2.2:3000/images/ana_lopez.png"  
+      }
+    ]
+  }
+  

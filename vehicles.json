@@ -1,0 +1,105 @@
+{
+    "vehicles": [
+      {
+        "placa": "ABC-123",
+        "marca": "Toyota",
+        "año_fabricación": 2018,
+        "color_vehículo": "Rojo",
+        "número_motor": "1ZR-FE123456",
+        "tipo_combustible": "Gasolina",
+        "categoría_vehículo": "Particular",
+        "imagen": "http://10.0.2.2:3000/images/toyota_rojo1.webp"
+      },
+      {
+        "placa": "DEF-456",
+        "marca": "Honda",
+        "año_fabricación": 2020,
+        "color_vehículo": "Negro",
+        "número_motor": "R18A987654",
+        "tipo_combustible": "Gasolina",
+        "categoría_vehículo": "Particular",
+        "imagen": "http://10.0.2.2:3000/images/honda_negro2.webp"
+      },
+      {
+        "placa": "MIN-001",
+        "marca": "Caterpillar",
+        "año_fabricación": 2020,
+        "color_vehículo": "Amarillo",
+        "número_motor": "CAT123456789",
+        "tipo_combustible": "Diésel",
+        "categoría_vehículo": "Maquinaria Pesada",
+        "imagen": "http://10.0.2.2:3000/images/caterpillar_amarillo3.webp"
+      },
+      {
+        "placa": "MIN-002",
+        "marca": "Komatsu",
+        "año_fabricación": 2018,
+        "color_vehículo": "Amarillo",
+        "número_motor": "KOM987654321",
+        "tipo_combustible": "Diésel",
+        "categoría_vehículo": "Maquinaria Pesada",
+        "imagen": "http://10.0.2.2:3000/images/komatsu_amarillo4.webp"
+      },
+      {
+        "placa": "4X4-003",
+        "marca": "Toyota",
+        "año_fabricación": 2019,
+        "color_vehículo": "Blanco",
+        "número_motor": "1GRFET123456",
+        "tipo_combustible": "Gasolina",
+        "categoría_vehículo": "Camioneta 4x4",
+        "imagen": "http://10.0.2.2:3000/images/toyota_blanco5.webp"
+      },
+      {
+        "placa": "4X4-004",
+        "marca": "Ford",
+        "año_fabricación": 2021,
+        "color_vehículo": "Negro",
+        "número_motor": "FORD456789012",
+        "tipo_combustible": "Diésel",
+        "categoría_vehículo": "Camioneta 4x4",
+        "imagen": "http://10.0.2.2:3000/images/ford_negro6.webp"
+      },
+      {
+        "placa": "TRK-005",
+        "marca": "Volvo",
+        "año_fabricación": 2017,
+        "color_vehículo": "Azul",
+        "número_motor": "VOL123789456",
+        "tipo_combustible": "Diésel",
+        "categoría_vehículo": "Camión de Transporte",
+        "imagen": "http://10.0.2.2:3000/images/volvo_azul7.webp"
+      },
+      {
+        "placa": "TRK-006",
+        "marca": "Scania",
+        "año_fabricación": 2018,
+        "color_vehículo": "Rojo",
+        "número_motor": "SCAN654321789",
+        "tipo_combustible": "Diésel",
+        "categoría_vehículo": "Camión de Transporte",
+        "imagen": "http://10.0.2.2:3000/images/scania_rojo8.webp"
+      },
+      {
+        "placa": "MIN-007",
+        "marca": "Hitachi",
+        "año_fabricación": 2019,
+        "color_vehículo": "Naranja",
+        "número_motor": "HIT789456123",
+        "tipo_combustible": "Diésel",
+        "categoría_vehículo": "Excavadora",
+        "imagen": "http://10.0.2.2:3000/images/hitachi_naranja9.webp"
+      },
+      {
+        "placa": "MIN-008",
+        "marca": "John Deere",
+        "año_fabricación": 2022,
+        "color_vehículo": "Verde",
+        "número_motor": "JD987654321",
+        "tipo_combustible": "Diésel",
+        "categoría_vehículo": "Tractor",
+        "imagen": "http://10.0.2.2:3000/images/johnDeere_verde10.webp"
+      }
+    ]
+  }
+  
