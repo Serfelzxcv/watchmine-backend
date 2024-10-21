@@ -1,105 +1,421 @@
 {
-    "vehicles": [
-      {
-        "placa": "ABC-123",
-        "marca": "Toyota",
-        "año_fabricación": 2018,
-        "color_vehículo": "Rojo",
-        "número_motor": "1ZR-FE123456",
-        "tipo_combustible": "Gasolina",
-        "categoría_vehículo": "Particular",
-        "imagen": "http://10.0.2.2:3000/images/toyota_rojo1.webp"
-      },
-      {
-        "placa": "DEF-456",
-        "marca": "Honda",
-        "año_fabricación": 2020,
-        "color_vehículo": "Negro",
-        "número_motor": "R18A987654",
-        "tipo_combustible": "Gasolina",
-        "categoría_vehículo": "Particular",
-        "imagen": "http://10.0.2.2:3000/images/honda_negro2.webp"
-      },
-      {
-        "placa": "MIN-001",
-        "marca": "Caterpillar",
-        "año_fabricación": 2020,
-        "color_vehículo": "Amarillo",
-        "número_motor": "CAT123456789",
-        "tipo_combustible": "Diésel",
-        "categoría_vehículo": "Maquinaria Pesada",
-        "imagen": "http://10.0.2.2:3000/images/caterpillar_amarillo3.webp"
-      },
-      {
-        "placa": "MIN-002",
-        "marca": "Komatsu",
-        "año_fabricación": 2018,
-        "color_vehículo": "Amarillo",
-        "número_motor": "KOM987654321",
-        "tipo_combustible": "Diésel",
-        "categoría_vehículo": "Maquinaria Pesada",
-        "imagen": "http://10.0.2.2:3000/images/komatsu_amarillo4.webp"
-      },
-      {
-        "placa": "4X4-003",
-        "marca": "Toyota",
-        "año_fabricación": 2019,
-        "color_vehículo": "Blanco",
-        "número_motor": "1GRFET123456",
-        "tipo_combustible": "Gasolina",
-        "categoría_vehículo": "Camioneta 4x4",
-        "imagen": "http://10.0.2.2:3000/images/toyota_blanco5.webp"
-      },
-      {
-        "placa": "4X4-004",
-        "marca": "Ford",
-        "año_fabricación": 2021,
-        "color_vehículo": "Negro",
-        "número_motor": "FORD456789012",
-        "tipo_combustible": "Diésel",
-        "categoría_vehículo": "Camioneta 4x4",
-        "imagen": "http://10.0.2.2:3000/images/ford_negro6.webp"
-      },
-      {
-        "placa": "TRK-005",
-        "marca": "Volvo",
-        "año_fabricación": 2017,
-        "color_vehículo": "Azul",
-        "número_motor": "VOL123789456",
-        "tipo_combustible": "Diésel",
-        "categoría_vehículo": "Camión de Transporte",
-        "imagen": "http://10.0.2.2:3000/images/volvo_azul7.webp"
-      },
-      {
-        "placa": "TRK-006",
-        "marca": "Scania",
-        "año_fabricación": 2018,
-        "color_vehículo": "Rojo",
-        "número_motor": "SCAN654321789",
-        "tipo_combustible": "Diésel",
-        "categoría_vehículo": "Camión de Transporte",
-        "imagen": "http://10.0.2.2:3000/images/scania_rojo8.webp"
-      },
-      {
-        "placa": "MIN-007",
-        "marca": "Hitachi",
-        "año_fabricación": 2019,
-        "color_vehículo": "Naranja",
-        "número_motor": "HIT789456123",
-        "tipo_combustible": "Diésel",
-        "categoría_vehículo": "Excavadora",
-        "imagen": "http://10.0.2.2:3000/images/hitachi_naranja9.webp"
-      },
-      {
-        "placa": "MIN-008",
-        "marca": "John Deere",
-        "año_fabricación": 2022,
-        "color_vehículo": "Verde",
-        "número_motor": "JD987654321",
-        "tipo_combustible": "Diésel",
-        "categoría_vehículo": "Tractor",
-        "imagen": "http://10.0.2.2:3000/images/johnDeere_verde10.webp"
-      }
-    ]
-  }
-  
+  "vehicles": [
+    {
+      "placa": "ABC-123",
+      "marca": "Toyota",
+      "anio_fabricacion": 2018,
+      "color_vehiculo": "Rojo",
+      "numero_motor": "1ZR-FE123456",
+      "tipo_combustible": "Gasolina",
+      "categoria_vehiculo": "Particular",
+      "imagen": "http://10.0.2.2:3000/images/toyota_rojo1.webp",
+      "id": "7007",
+      "mantenimiento_preventivo": [
+        {
+          "id": "[#888dd]",
+          "nombre": "Cambio de levas",
+          "fecha_ultimo_mantenimiento": "2024-10-20",
+          "intervalo_dias": 50
+        },
+        {
+          "id": "[#385fd]",
+          "nombre": "Cambio de  aceite",
+          "fecha_ultimo_mantenimiento": "2024-10-03",
+          "intervalo_dias": 20
+        }
+      ],
+      "historial_mantenimiento_preventivo": [
+        {
+          "nombre": "Cambio de aceite",
+          "fecha_ultimo_mantenimiento": "2024-02-15",
+          "intervalo_dias": 180
+        },
+        {
+          "nombre": "Revison de freno de discos",
+          "fecha_ultimo_mantenimiento": "2024-10-20",
+          "intervalo_dias": 30
+        },
+        {
+          "nombre": "Cambio de levas",
+          "fecha_ultimo_mantenimiento": "2024-10-20",
+          "intervalo_dias": 50
+        }
+      ],
+      "mantenimiento_correctivo": [
+        {
+          "nombre": "Reparacion de motor",
+          "ultimo_mantenimiento_correctivo": "2023-12-01",
+          "razon": "Fuga de aceite"
+        },
+        {
+          "nombre": "Reparacion de cardanes",
+          "ultimo_mantenimiento_correctivo": "2024-10-09",
+          "razon": "Se rompieron los cardane al momneto de pisar un bache"
+        }
+      ],
+      "equipamiento": [
+        {
+          "nombre": "GPS Tracker",
+          "fecha_instalacion": "2023-05-20",
+          "razon": "Mejorar la seguridad"
+        },
+        {
+          "nombre": "Luces largas",
+          "fecha_instalacion": "2024-10-10",
+          "razon": "Por la llegada de invierno del cual hay muchas neblinas"
+        }
+      ]
+    },
+    {
+      "placa": "DEF-456",
+      "marca": "Honda",
+      "anio_fabricacion": 2020,
+      "color_vehiculo": "Negro",
+      "numero_motor": "R18A987654",
+      "tipo_combustible": "Gasolina",
+      "categoria_vehiculo": "Particular",
+      "imagen": "http://10.0.2.2:3000/images/honda_negro2.webp",
+      "id": "2a9e",
+      "mantenimiento_preventivo": [
+        {
+          "nombre": "Cambio de filtro de aire",
+          "fecha_ultimo_mantenimiento": "2024-09-01",
+          "intervalo_dias": 365
+        }
+      ],
+      "historial_mantenimiento_preventivo": [
+        {
+          "nombre": "Cambio de filtro de aire",
+          "fecha_ultimo_mantenimiento": "2023-09-01",
+          "intervalo_dias": 365
+        }
+      ],
+      "mantenimiento_correctivo": [
+        {
+          "nombre": "Cambio de amortiguadores",
+          "ultimo_mantenimiento_correctivo": "2023-06-15",
+          "razon": "Desgaste excesivo"
+        }
+      ],
+      "equipamiento": [
+        {
+          "nombre": "Camara de reversa",
+          "fecha_instalacion": "2022-11-12",
+          "razon": "Mejora de visibilidad"
+        }
+      ]
+    },
+    {
+      "placa": "MIN-001",
+      "marca": "Caterpillar",
+      "anio_fabricacion": 2020,
+      "color_vehiculo": "Amarillo",
+      "numero_motor": "CAT123456789",
+      "tipo_combustible": "Diesel",
+      "categoria_vehiculo": "Maquinaria Pesada",
+      "imagen": "http://10.0.2.2:3000/images/caterpillar_amarillo3.webp",
+      "id": "95b4",
+      "mantenimiento_preventivo": [
+        {
+          "nombre": "Revision de sistema hidraulico",
+          "fecha_ultimo_mantenimiento": "2023-06-20",
+          "intervalo_dias": 90
+        }
+      ],
+      "historial_mantenimiento_preventivo": [
+        {
+          "nombre": "Revision de sistema hidraulico",
+          "fecha_ultimo_mantenimiento": "2023-12-20",
+          "intervalo_dias": 180
+        }
+      ],
+      "mantenimiento_correctivo": [
+        {
+          "nombre": "Reparacion de bomba de agua",
+          "ultimo_mantenimiento_correctivo": "2023-09-10",
+          "razon": "Sobrecalentamiento"
+        }
+      ],
+      "equipamiento": [
+        {
+          "nombre": "Sistema de monitoreo remoto",
+          "fecha_instalacion": "2023-02-14",
+          "razon": "Optimizar el control de rendimiento"
+        }
+      ]
+    },
+    {
+      "placa": "MIN-002",
+      "marca": "Komatsu",
+      "anio_fabricacion": 2018,
+      "color_vehiculo": "Amarillo",
+      "numero_motor": "KOM987654321",
+      "tipo_combustible": "Diesel",
+      "categoria_vehiculo": "Maquinaria Pesada",
+      "imagen": "http://10.0.2.2:3000/images/komatsu_amarillo4.webp",
+      "id": "02b1",
+      "mantenimiento_preventivo": [
+        {
+          "nombre": "Cambio de filtro de combustible",
+          "fecha_ultimo_mantenimiento": "2024-07-01",
+          "intervalo_dias": 150
+        }
+      ],
+      "historial_mantenimiento_preventivo": [
+        {
+          "nombre": "Cambio de filtro de combustible",
+          "fecha_ultimo_mantenimiento": "2024-01-01",
+          "intervalo_dias": 150
+        }
+      ],
+      "mantenimiento_correctivo": [
+        {
+          "nombre": "Cambio de valvulas",
+          "ultimo_mantenimiento_correctivo": "2023-08-25",
+          "razon": "Fallo en la presion de combustible"
+        }
+      ],
+      "equipamiento": [
+        {
+          "nombre": "Camara de monitoreo",
+          "fecha_instalacion": "2022-10-10",
+          "razon": "Aumentar la visibilidad de la operacion"
+        }
+      ]
+    },
+    {
+      "placa": "4X4-003",
+      "marca": "Toyota",
+      "anio_fabricacion": 2019,
+      "color_vehiculo": "Blanco",
+      "numero_motor": "1GRFET123456",
+      "tipo_combustible": "Gasolina",
+      "categoria_vehiculo": "Camioneta 4x4",
+      "imagen": "http://10.0.2.2:3000/images/toyota_blanco5.webp",
+      "id": "1465",
+      "mantenimiento_preventivo": [
+        {
+          "nombre": "Revision de suspension",
+          "fecha_ultimo_mantenimiento": "2024-08-01",
+          "intervalo_dias": 365
+        }
+      ],
+      "historial_mantenimiento_preventivo": [
+        {
+          "nombre": "Revision de suspension",
+          "fecha_ultimo_mantenimiento": "2023-08-01",
+          "intervalo_dias": 365
+        }
+      ],
+      "mantenimiento_correctivo": [
+        {
+          "nombre": "Cambio de pastillas de freno",
+          "ultimo_mantenimiento_correctivo": "2023-11-20",
+          "razon": "Desgaste"
+        }
+      ],
+      "equipamiento": [
+        {
+          "nombre": "Barra antivuelco",
+          "fecha_instalacion": "2023-06-30",
+          "razon": "Seguridad en terrenos accidentados"
+        }
+      ]
+    },
+    {
+      "placa": "4X4-004",
+      "marca": "Ford",
+      "anio_fabricacion": 2021,
+      "color_vehiculo": "Negro",
+      "numero_motor": "FORD456789012",
+      "tipo_combustible": "Diesel",
+      "categoria_vehiculo": "Camioneta 4x4",
+      "imagen": "http://10.0.2.2:3000/images/ford_negro6.webp",
+      "id": "d6e9",
+      "mantenimiento_preventivo": [
+        {
+          "nombre": "Cambio de aceite de transmision",
+          "fecha_ultimo_mantenimiento": "2024-07-15",
+          "intervalo_dias": 240
+        }
+      ],
+      "historial_mantenimiento_preventivo": [
+        {
+          "nombre": "Cambio de aceite de transmision",
+          "fecha_ultimo_mantenimiento": "2023-11-15",
+          "intervalo_dias": 240
+        }
+      ],
+      "mantenimiento_correctivo": [
+        {
+          "nombre": "Reparacion del sistema de traccion",
+          "ultimo_mantenimiento_correctivo": "2023-10-10",
+          "razon": "Fallo en la traccion 4x4"
+        }
+      ],
+      "equipamiento": [
+        {
+          "nombre": "Winch",
+          "fecha_instalacion": "2023-05-25",
+          "razon": "Rescate en terrenos dificiles"
+        }
+      ]
+    },
+    {
+      "placa": "TRK-005",
+      "marca": "Volvo",
+      "anio_fabricacion": 2017,
+      "color_vehiculo": "Azul",
+      "numero_motor": "VOL123789456",
+      "tipo_combustible": "Diesel",
+      "categoria_vehiculo": "Camion de Transporte",
+      "imagen": "http://10.0.2.2:3000/images/volvo_azul7.webp",
+      "id": "fcc0",
+      "mantenimiento_preventivo": [
+        {
+          "nombre": "Revision de sistema de frenos",
+          "fecha_ultimo_mantenimiento": "2024-05-20",
+          "intervalo_dias": 180
+        }
+      ],
+      "historial_mantenimiento_preventivo": [
+        {
+          "nombre": "Revision de sistema de frenos",
+          "fecha_ultimo_mantenimiento": "2023-11-20",
+          "intervalo_dias": 180
+        }
+      ],
+      "mantenimiento_correctivo": [
+        {
+          "nombre": "Reparacion de inyectores",
+          "ultimo_mantenimiento_correctivo": "2023-07-14",
+          "razon": "Perdida de potencia"
+        }
+      ],
+      "equipamiento": [
+        {
+          "nombre": "Sistema de freno adicional",
+          "fecha_instalacion": "2022-11-11",
+          "razon": "Mejora en frenado de cargas pesadas"
+        }
+      ]
+    },
+    {
+      "placa": "TRK-006",
+      "marca": "Scania",
+      "anio_fabricacion": 2018,
+      "color_vehiculo": "Rojo",
+      "numero_motor": "SCAN654321789",
+      "tipo_combustible": "Diesel",
+      "categoria_vehiculo": "Camion de Transporte",
+      "imagen": "http://10.0.2.2:3000/images/scania_rojo8.webp",
+      "id": "20e8",
+      "mantenimiento_preventivo": [
+        {
+          "nombre": "Revision de luces y sistema electrico",
+          "fecha_ultimo_mantenimiento": "2024-08-05",
+          "intervalo_dias": 365
+        }
+      ],
+      "historial_mantenimiento_preventivo": [
+        {
+          "nombre": "Revision de luces y sistema electrico",
+          "fecha_ultimo_mantenimiento": "2023-08-05",
+          "intervalo_dias": 365
+        }
+      ],
+      "mantenimiento_correctivo": [
+        {
+          "nombre": "Cambio de alternador",
+          "ultimo_mantenimiento_correctivo": "2023-09-01",
+          "razon": "Fallo en la carga de bateria"
+        }
+      ],
+      "equipamiento": [
+        {
+          "nombre": "Sistema de monitoreo de carga",
+          "fecha_instalacion": "2023-04-18",
+          "razon": "Control de estabilidad de la carga"
+        }
+      ]
+    },
+    {
+      "placa": "MIN-007",
+      "marca": "Hitachi",
+      "anio_fabricacion": 2019,
+      "color_vehiculo": "Naranja",
+      "numero_motor": "HIT789456123",
+      "tipo_combustible": "Diesel",
+      "categoria_vehiculo": "Excavadora",
+      "imagen": "http://10.0.2.2:3000/images/hitachi_naranja9.webp",
+      "id": "0b21",
+      "mantenimiento_preventivo": [
+        {
+          "nombre": "Revision de sistema hidraulico",
+          "fecha_ultimo_mantenimiento": "2024-06-10",
+          "intervalo_dias": 120
+        }
+      ],
+      "historial_mantenimiento_preventivo": [
+        {
+          "nombre": "Revision de sistema hidraulico",
+          "fecha_ultimo_mantenimiento": "2024-02-10",
+          "intervalo_dias": 120
+        }
+      ],
+      "mantenimiento_correctivo": [
+        {
+          "nombre": "Reparacion de brazo mecanico",
+          "ultimo_mantenimiento_correctivo": "2023-11-10",
+          "razon": "Desgaste de juntas"
+        }
+      ],
+      "equipamiento": [
+        {
+          "nombre": "Sensor de profundidad",
+          "fecha_instalacion": "2022-09-22",
+          "razon": "Mejora en la precision de excavacion"
+        }
+      ]
+    },
+    {
+      "placa": "MIN-008",
+      "marca": "John Deere",
+      "anio_fabricacion": 2022,
+      "color_vehiculo": "Verde",
+      "numero_motor": "JD987654321",
+      "tipo_combustible": "Diesel",
+      "categoria_vehiculo": "Tractor",
+      "imagen": "http://10.0.2.2:3000/images/johnDeere_verde10.webp",
+      "id": "4aa5",
+      "mantenimiento_preventivo": [
+        {
+          "nombre": "Cambio de aceite de motor",
+          "fecha_ultimo_mantenimiento": "2024-09-15",
+          "intervalo_dias": 180
+        }
+      ],
+      "historial_mantenimiento_preventivo": [
+        {
+          "nombre": "Cambio de aceite de motor",
+          "fecha_ultimo_mantenimiento": "2024-03-15",
+          "intervalo_dias": 180
+        }
+      ],
+      "mantenimiento_correctivo": [
+        {
+          "nombre": "Reparacion de caja de cambios",
+          "ultimo_mantenimiento_correctivo": "2023-08-01",
+          "razon": "Problemas en la transmision"
+        }
+      ],
+      "equipamiento": [
+        {
+          "nombre": "Cabina climatizada",
+          "fecha_instalacion": "2023-03-15",
+          "razon": "Mejorar el confort del operador"
+        }
+      ]
+    }
+  ]
+}
